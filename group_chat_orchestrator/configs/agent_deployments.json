@@ -1,0 +1,47 @@
+[
+    {
+        "name": "researcher_agent_deployment_1",
+        "module": {"name": "researcher_agent"},
+        "node": {
+            "ip": "localhost"
+        },
+        "config": {
+            "config_name": "researcher_config_1",
+            "llm_config": {"config_name": "gpt4o_mini"},
+            "system_prompt": {
+                "role": "You are a research assistant.",
+                "persona": ""
+            }
+        }
+    },
+    {
+        "name": "researcher_agent_deployment_2",
+        "module": {"name": "researcher_agent"},
+        "node": {
+            "ip": "localhost"
+        },
+        "config": {
+            "config_name": "researcher_config_2",
+            "llm_config": {"config_name": "gpt4o_mini"},
+            "system_prompt": {
+                "role": "You are a research assistant.",
+                "persona": ""
+            }
+        }
+    },
+    {
+        "name": "researcher_agent_deployment_3",
+        "module": {"name": "researcher_agent"},
+        "node": {
+            "ip": "localhost"
+        },
+        "config": {
+            "config_name": "researcher_config_3",
+            "llm_config": {"config_name": "gpt4o_mini"},
+            "system_prompt": {
+                "role": "You are a research assistant.",
+                "persona": ""
+            }
+        }
+    }
+] 

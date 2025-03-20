@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "group_chat_orchestrator"
+version = "0.1.0"
+description = "A Naptha orchestrator for group chat research"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git", }
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

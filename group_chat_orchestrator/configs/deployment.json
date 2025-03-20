@@ -1,0 +1,28 @@
+[
+    {
+        "name": "orchestrator_1",
+        "module": {
+            "name": "group_chat_orchestrator",
+            "description": "Orchestrator for group chat between researcher agents",
+            "parameters": "{topic: str}",
+            "module_type": "orchestrator",
+            "module_version": "v0.1",
+            "module_entrypoint": "run.py",
+            "execution_type": "package"
+        },
+        "node": {
+            "ip": "localhost"
+        },
+        "config": {
+            "config_name": "orchestrator_config_1"
+        },
+        "agent_deployments": [
+            {"name": "researcher_agent_deployment_1"},
+            {"name": "researcher_agent_deployment_2"},
+            {"name": "researcher_agent_deployment_3"}
+        ],
+        "kb_deployments": [
+            {"name": "research_kb_deployment_1"}
+        ]
+    }
+]
