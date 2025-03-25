@@ -4,7 +4,7 @@
         "module": {
             "name": "group_chat_orchestrator",
             "description": "Orchestrator for group chat between researcher agents",
-            "parameters": "{topic: str}",
+            "parameters": "{research_topic: str, num_agents: int, use_roles: bool}",
             "module_type": "orchestrator",
             "module_version": "v0.1",
             "module_entrypoint": "run.py",
@@ -14,7 +14,7 @@
             "ip": "localhost"
         },
         "config": {
-            "config_name": "orchestrator_config_1"
+            "config_name": "group_chat_orchestrator_config"
         },
         "agent_deployments": [
             {"name": "researcher_agent_deployment_1"},

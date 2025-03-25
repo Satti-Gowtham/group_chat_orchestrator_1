@@ -2,7 +2,7 @@
 name = "group_chat_orchestrator"
 version = "0.1.0"
 description = "A Naptha orchestrator for group chat research"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Gowtham Satti <sattigowtham1999@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
